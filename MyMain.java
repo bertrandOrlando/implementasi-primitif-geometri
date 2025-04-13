@@ -99,6 +99,7 @@ public class MyMain {
 				// didalam himpunan tersebut
 				PointSet.sort();
 
+				System.out.println(n); // Menampilkan banyak titik
 				// Menampilkan posisi x dengan y dari setiap titik
 				PointSet.printPoints();
 
