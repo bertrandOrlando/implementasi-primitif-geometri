@@ -68,7 +68,7 @@ public class MyPolygon {
         }
 
         // Membagi 2 dari total area yang didapatkan
-        area = area / 2;
+        area = Math.abs(area) / 2;
 
         return area;
     }
