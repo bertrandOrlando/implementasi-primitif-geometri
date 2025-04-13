@@ -76,7 +76,7 @@ public class MyPointSet {
     void printPoints() {
         // Menampilkan posisi dari setiap titik di arraylist
         for (MyPoint point : Points) {
-            System.out.println(point.x + " " + point.y);
+            System.out.printf("%.0f %.0f\n", point.x, point.y);
         }
     }
 }
